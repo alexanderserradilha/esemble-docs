@@ -1,38 +1,50 @@
-# Cabeçalho e menu
+# Header and menu
 
-## Barra de aviso
+## Announcement bar
 
-Seção separada, acima do cabeçalho. Aceita até seis mensagens. Com **Rolar mensagens** ligado
-e duas ou mais mensagens, elas passam em movimento contínuo; para quem ativou "reduzir
-movimento" no sistema, ficam paradas em linha.
+A separate section, above the header. It takes up to six messages. With **Scroll
+messages** on and two or more messages, they move continuously; for anyone who
+turned on "reduce motion" in their system, they sit still in a row.
 
-## Cabeçalho
+## Header
 
-| Configuração | O que faz |
+Click the header in **Customize** to reach these:
+
+| Setting | What it does |
 |---|---|
-| Logo e largura | Largura separada para desktop e celular |
-| Menu | Ver [Começar](comecar.md) |
-| Mostrar busca | Campo com sugestões enquanto digita |
-| Cabeçalho fixo | O cabeçalho acompanha a rolagem |
-| Mostrar linha separadora | Fio abaixo do cabeçalho |
+| Layout | Centred, or search beside the logo |
+| Logo · Logo width · Logo width on mobile | Separate widths for desktop and mobile |
+| Logo position on mobile | Left or centred |
+| Menu | See [Getting started](comecar.md) |
+| Images in the mobile menu | A thumbnail beside each top-level link |
+| Show search | A field with suggestions as you type |
+| Country and language in the header | For stores selling in more than one market |
+| Sticky header | The header follows the scroll |
+| Show separator line | A rule under the header |
+| Customer account menu | The menu shown to a signed-in customer |
 
-No celular, o menu vira uma gaveta lateral. Abaixo de 990px a busca larga some e aparece o
-campo abaixo do cabeçalho.
+On mobile the menu becomes a side drawer. Below 990px the wide search field
+disappears and a field shows up under the header instead.
 
-## Busca com sugestões
+## Search suggestions
 
-As sugestões vêm da busca da Shopify. Em **Configurações do tema → Busca** você escolhe se
-mostra preço e marca em cada sugestão.
+Suggestions come from Shopify's own search. In **Theme settings → Search** you
+choose whether each suggestion shows the price and the vendor.
 
-A busca funciona mesmo com JavaScript desativado — o campo envia para a página de resultados
-normalmente. As sugestões são um acréscimo, não a base.
+Search works with JavaScript turned off — the field submits to the results page
+as normal. Suggestions are an addition, not the foundation.
 
-## Carrinho
+## Cart
 
-O carrinho abre num painel lateral quando o cliente adiciona algo, sem sair da página. Em
-**Configurações do tema → Carrinho**:
+The cart opens in a side panel when the customer adds something, without leaving
+the page. In **Theme settings → Cart**:
 
-- **Barra de frete grátis** e o valor mínimo. Use o valor que o seu checkout realmente cumpre —
-  o tema não lê as suas regras de frete, ele mostra o número que você escrever.
-- **Coleção exibida com o carrinho vazio** — até quatro produtos.
-- **Campo de observação do pedido**.
+- **Show free shipping progress bar** and the **Free shipping threshold**. Use
+  the figure your checkout actually applies — the theme does not read your
+  shipping rules, it shows the number you type.
+- **Collection shown in an empty cart** — up to four products.
+- **Show currency code**.
+
+The order note field is a setting on the **Cart** section — the cart page, not
+the panel. Open **Customize**, switch to the Cart template, and turn on **Show
+order note field**.

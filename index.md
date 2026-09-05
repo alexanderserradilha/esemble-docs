@@ -1,20 +1,20 @@
-# Esemble — documentação
+# Esemble — documentation
 
-Tema de moda para Shopify. Feito para loja brasileira: preço no Pix, parcelamento
-no cartão e selos de pagamento vêm prontos, sem app.
+A fashion theme for Shopify. Built for Brazilian stores: the Pix price, card
+instalments and payment icons ship with the theme, with no app.
 
-- [Começar](comecar.md) — cores, logo, menu e a home
-- [Seções](secoes.md) — tudo que dá para montar na página
-- [Cabeçalho e menu](cabecalho.md) — logo, mega-menu, busca, carrinho
-- [Produto](produto.md) — galeria, variantes, guia de tamanhos, blocos
-- [Coleção e filtros](colecao.md)
-- [Looks](looks.md) — Compre o look, grade de looks e feed de vídeo
-- [Rodapé e páginas](rodape.md)
-- [Perguntas frequentes](faq.md)
-- [Problemas comuns](problemas.md)
+- [Getting started](comecar.md) — colours, logo, menu and the home page
+- [Sections](secoes.md) — everything you can build a page from
+- [Header and menu](cabecalho.md) — logo, mega menu, search, cart
+- [Product page](produto.md) — gallery, variants, size guide, blocks
+- [Collection and filters](colecao.md)
+- [Looks](looks.md) — Shop the look, Look grid and Video feed
+- [Footer and pages](rodape.md)
+- [FAQ](faq.md)
+- [Common problems](problemas.md)
 
-## Suporte
+## Support
 
-Dúvida ou erro no tema: [abra um chamado](contato.md). Respondemos em até **dois dias
-úteis**. Para relatar um erro, diga qual página apresenta o problema e, se possível, o link
-dela na sua loja.
+Question or bug: [open a ticket](contato.md). We reply within **two business
+days**. To report a bug, say which page it happens on and, if you can, its link
+on your store.

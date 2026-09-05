@@ -1,42 +1,55 @@
 # Looks
 
-Um look é uma foto com as peças que aparecem nela. O tema mostra o mesmo look de quatro
-formas: **Compre o look** (foto com pontos clicáveis), **Grade de looks**, **Feed de vídeos** e o
-bloco **Aparece nestes looks** na página do produto.
+A look is one photo plus the pieces that appear in it. The theme shows a look
+four ways: **Shop the look** (a photo with clickable hotspots), **Look grid**,
+**Video feed**, and the **Appears in these looks** block on the product page.
 
-## Montagem rápida (sem configurar nada)
+## Shop the look
 
-As seções Compre o look, Grade de looks e Feed de vídeos aceitam a montagem manual: você
-escolhe a foto e os produtos direto no bloco. Funciona imediatamente.
+Pick the **Image**, choose which **Image side** it sits on, and add one **Piece**
+block per product. Each piece has a **Linked product** and two percentage
+controls, **Hotspot horizontal position** and **Hotspot vertical position**.
 
-## Montagem completa (recomendada)
+The position is relative to the photo, so the hotspot survives any crop and any
+screen size.
 
-Para o look ser uma coisa só — e para o bloco "Aparece nestes looks" funcionar — crie o
-metaobjeto uma vez:
+The **Add the look to cart** button sends every ticked piece at once, each in the
+variant chosen right there in the list. The list is always visible, so nothing
+depends on finding a dot on a photograph.
 
-**Configurações → Dados personalizados → Metaobjetos → Adicionar definição**
+## Look grid
 
-| Campo | Tipo | Chave |
+One **Look** block per tile. Each takes an **Image**, a **Heading** and up to
+three products — **Piece 1**, **Piece 2**, **Piece 3**. The tile opens a dialog
+with the photo and the pieces.
+
+## Video feed
+
+One **Video** block per tile, each with a **Video** and a **Linked product**.
+Vertical video (9:16) works best. Video plays muted and only while it is on
+screen; the customer controls it with the button. Sound needs a tap from the
+customer — that is a browser rule, not a theme one.
+
+## Appears in these looks
+
+This block on the product page is the only one that needs setting up. It lists
+the looks a product belongs to, so a customer who arrived at one piece can see
+the whole outfit.
+
+It reads a metaobject, which you create once:
+
+**Settings → Custom data → Metaobjects → Add definition**
+
+| Field | Type | Key |
 |---|---|---|
-| Nome | — | `Look` (tipo `look`) |
-| Título | Texto de uma linha | `title` |
-| Imagem | Arquivo (imagem) | `image` |
-| Peças | Lista de referências a produto | `products` |
-| Vídeo | Arquivo (vídeo) — opcional | `video` |
+| Name | — | `Look` (type `look`) |
+| Title | Single line text | `title` |
+| Image | File (image) | `image` |
+| Pieces | List of product references | `products` |
+| Video | File (video) — optional | `video` |
 
-Marque **Acesso: Vitrine** na definição. Depois, cada entrada é um look, e as seções passam a
-ter um seletor "Look".
+Tick **Storefront access** on the definition. Each entry is then one look, and
+any product listed in its **Pieces** shows that look on its own page.
 
-## Compre o look
-
-Escolha a imagem e adicione um bloco **Peça** por produto, posicionando o ponto com os dois
-controles de porcentagem. A posição é relativa à foto, então o ponto acompanha qualquer
-recorte e qualquer tela.
-
-O botão **Adicionar o look ao carrinho** manda todas as peças marcadas de uma vez, cada uma
-na variante escolhida ali mesmo.
-
-## Feed de vídeos
-
-Vídeo vertical (9:16) funciona melhor. O vídeo toca sem som e só enquanto está visível; o
-cliente controla pelo botão. Som exige um toque do cliente — é regra do navegador, não do tema.
+Without the definition the block simply shows nothing. The three sections above
+do not depend on it.

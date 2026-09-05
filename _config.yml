@@ -3,8 +3,9 @@
 # Serve apenas os markdown desta pasta. O código do tema NUNCA entra aqui: o
 # tema é vendido, e um repositório público com o fonte entrega o produto.
 # O caminho de publicação está em PUBLICAR.md, ao lado deste arquivo.
-title: Esemble — documentação
-description: Manual do tema Esemble para Shopify
+title: Esemble — documentation
+description: Manual for the Esemble theme for Shopify
 theme: jekyll-theme-primer
+lang: en
 exclude:
   - PUBLICAR.md

@@ -1,76 +1,81 @@
-# Seções
+# Sections
 
-Tudo abaixo entra pelo **Adicionar seção**, no personalizador. Nenhuma exige aplicativo.
+Everything below is added through **Add section** in the customizer. None of it
+needs an app.
 
-## Vitrine e catálogo
+## Storefront and catalogue
 
-| Seção | Para quê |
+| Section | What it is for |
 |---|---|
-| **Coleção em destaque** | Uma coleção em carrossel ou grade. É a vitrine de "Mais vendidos", "Lançamentos", "Promoção" |
-| **Grade de coleções** | Cards de categoria com foto |
-| **Produto em destaque** | Um produto com a foto grande e a decisão de compra ao lado. Com variantes, o botão leva à página do produto — escolher tamanho por você venderia o errado |
-| **Pedido rápido** | Tabela com cada variante e um campo de quantidade, um só botão. Para atacado e recompra |
+| **Featured collection** | One collection, as a carousel or a grid. This is your "Best sellers", "New in", "Sale" |
+| **Collection grid** | Category cards with a photo |
+| **Featured product** | One product, large photo, buying decision beside it. With variants the button opens the product page — choosing a size for the customer would sell the wrong one |
+| **Related products** | Shopify's own recommendations, related or complementary |
+| **Quick order list** | A table of every variant with a quantity field, and one button. For wholesale and repeat buying |
 
 ## Editorial
 
-| Seção | Para quê |
+| Section | What it is for |
 |---|---|
-| **Slideshow** | Campanha, um ou mais slides |
-| **Imagem com texto** · **Par de imagens** | Bloco duplo de imagem e texto |
-| **Linhas alternadas** | Sequência de imagem e texto que troca de lado sozinha a cada linha |
-| **Colagem** | Um bloco alto ao lado de uma pilha. Cada peça é imagem, produto ou coleção |
-| **Galeria de imagens** | Grade de fotos, com colunas separadas para desktop e celular |
-| **Texto destacado** | Título e parágrafo centrados |
-| **Posts do blog** | Últimos posts de um blog |
+| **Slideshow** | A campaign, one slide or several. Height is a setting, not the shape of the first photo |
+| **Hero** | A single full-width image with a heading over it |
+| **Image with text** · **Image banners** | Paired image and text |
+| **Alternating rows** | A run of image-and-text rows that swap sides on their own |
+| **Collage** | One tall block beside a stack. Each piece is an image, a product or a collection |
+| **Image gallery** | A grid of photos, with separate column counts for desktop and mobile |
+| **Rich text** | A centred heading and paragraph |
+| **Blog posts** | The latest posts from a blog |
 
-## Prova e confiança
+## Proof and trust
 
-| Seção | Para quê |
+| Section | What it is for |
 |---|---|
-| **Faixa de benefícios** | Entrega, parcelamento, segurança, troca. Quatro ícones |
-| **Tarja rolante** | Frases curtas passando na largura da tela. Para quem pediu menos movimento, ficam paradas |
-| **Depoimentos** | Citações com autor |
-| **Perguntas frequentes** | Sanfona |
-| **Tabela de medidas** | Tabela com as colunas que você definir, para a página de medidas |
+| **Benefits strip** | Delivery, instalments, security, returns. Four icons |
+| **Scrolling strip** | Short phrases moving across the width of the screen. For anyone who asked for less motion, they hold still |
+| **Testimonials** | Quotes with an author |
+| **FAQ** | An accordion |
+| **Size guide** | A table with the columns you define, for your measurements page |
 
-## Vídeo e looks
+## Video and looks
 
-| Seção | Para quê |
+| Section | What it is for |
 |---|---|
-| **Fileira de vídeos** · **Feed de vídeos** | Vídeos com produto atrelado. Ver [Looks](looks.md) |
-| **Compre o look** · **Grade de looks** | Ver [Looks](looks.md) |
-| **Vídeo flutuante** | Círculo fixo num canto que abre o vídeo grande ao ser tocado |
+| **Video row** · **Video feed** | Video with a product attached. See [Looks](looks.md) |
+| **Shop the look** · **Look grid** | See [Looks](looks.md) |
+| **Floating video** | A circle pinned in a corner that opens the full video when tapped |
 
-## Captação e navegação
+## Capture and navigation
 
-| Seção | Para quê |
+| Section | What it is for |
 |---|---|
-| **Banner de captura de e-mail** | Newsletter sobre uma foto. O e-mail cai na lista de marketing da Shopify |
-| **Menu** | Um menu da Navegação exibido no corpo da página, em pílulas ou colunas |
-| **Faixa de categorias** | Categorias em círculo ou quadrado, no rodapé de todas as páginas |
-| **Liquid personalizado** | Código seu, onde quiser |
+| **Email signup banner** | Newsletter over a photo. The address lands in your Shopify marketing list |
+| **Menu** | One of your navigation menus shown in the body of the page, as pills or columns |
+| **Category strip** | Categories as circles or squares, in the footer of every page |
+| **Custom section** · **Custom Liquid** | Your own blocks, or your own code, wherever you want it |
 
 ---
 
-## Preço por forma de pagamento
+## Payment breakdown
 
-Bloco da página de produto, e é o motivo de o tema existir para loja brasileira.
+A block on the product page, and the reason this theme exists for a Brazilian
+store.
 
-Você informa **o percentual de desconto** de uma forma de pagamento e **o número de parcelas**
-de outra. O tema calcula e mostra os dois:
+You give it a **Method name**, a **Discount** percentage and a **Maximum
+instalments** count. The theme works out both figures and shows them:
 
-> **R$ 151,05** no Pix
-> ou até 4x de R$ 39,75 sem juros
+> **R$ 151,05** with Pix
+> or up to 4x R$ 39,75 interest free
 
-O nome da forma é escrito por você — serve para Pix, transferência, ou o que a sua loja
-aceitar. Os valores são recalculados quando o cliente troca de variante, porque um preço
-com desconto parado ao lado de um preço que mudou contradiz a própria página.
+You write the method name, so it covers Pix, bank transfer, or whatever your
+store takes. The figures are recalculated when the customer switches variant,
+because a stale discounted price sitting beside a price that just changed
+contradicts the page it is on.
 
-**Coloque os números que o seu checkout realmente aplica.** O tema não lê as suas regras de
-pagamento: ele mostra o que você escrever.
+**Enter the numbers your checkout actually applies.** The theme does not read
+your payment rules: it shows what you type.
 
-## Selos e bandeiras
+## Badges and payment icons
 
-As bandeiras de pagamento saem sozinhas no rodapé, a partir do que está ativo no seu checkout
-— nada para configurar. Para selos próprios (site seguro, associações), use o bloco **Selos**
-do rodapé, com até seis imagens.
+Payment icons appear in the footer on their own, from whatever is active in your
+checkout — nothing to configure. For badges of your own (secure site,
+memberships), use the footer's **Badges** block, which takes up to six images.

@@ -1,44 +1,55 @@
-# Problemas comuns
+# Common problems
 
-## As bolinhas de cor não aparecem
+## Colour swatches do not appear
 
-Configure as amostras em **Configurações → Dados personalizados → Amostras de opção**. Sem
-isso, o tema mostra pastilhas de texto.
+Set the swatches up in **Settings → Custom data → Option value swatches**.
+Without that, the theme shows text pills.
 
-## A foto não muda ao escolher a cor
+## The photo does not change when a colour is picked
 
-A imagem precisa estar associada à variante no admin: abra o produto, clique na variante e
-selecione a imagem dela.
+The image has to be attached to the variant in the admin: open the product, click
+the variant, and select its image.
 
-## O filtro não aparece na coleção
+If you want the gallery to show only that colour's photos, set **Group photos by
+option** on the product section to the option that holds colour.
 
-Instale o aplicativo **Search & Discovery** e crie os filtros nele. O tema apenas exibe o que
-estiver configurado ali.
+## Filters do not appear on the collection
 
-## O selo de promoção não aparece
+Install the **Search & Discovery** app and create the filters in it. The theme
+only displays what is configured there. Check that **Enable filtering and
+sorting** is on in the collection section too.
 
-O produto precisa de um **preço comparativo** maior que o preço atual.
+## The sale badge does not appear
 
-## "Aparece nestes looks" está vazio na página do produto
+The product needs a **compare-at price** higher than its current price.
 
-O bloco depende do metaobjeto `look`. Confira que a definição existe, que tem **Acesso:
-Vitrine** e que o produto está na lista de peças de algum look. Ver [Looks](looks.md).
+## "Appears in these looks" is empty on the product page
 
-## O botão de contato flutuante não aparece
+The block depends on the `look` metaobject. Check the definition exists, that it
+has **Storefront access**, and that the product is in the **Pieces** list of some
+look. See [Looks](looks.md).
 
-É proposital: sem link preenchido, ele não é exibido.
+## The floating contact button does not appear
 
-## O vídeo não toca com som
+That is deliberate: with no link filled in, it is not rendered.
 
-Navegadores só permitem som depois de um toque do cliente. O tema não pode contornar isso.
+## Video does not play with sound
 
-## As seções não aparecem ao rolar
+Browsers only allow sound after the customer taps. The theme cannot work around
+it.
 
-Se você ativou **Revelar seções ao rolar** e nada acontece, provavelmente o sistema do cliente
-está com "reduzir movimento" ligado. Nesse caso, tudo aparece de uma vez — proposital.
+## Sections do not appear on scroll
 
-## A logo está grande demais no celular
+If you turned **Reveal sections on scroll** on and nothing happens, the
+customer's system probably has "reduce motion" enabled. In that case everything
+appears at once — deliberate.
 
-Há dois controles de largura, um para desktop e outro para celular, em
-**Configurações do tema → Cabeçalho**.
+## The logo is too big on mobile
 
+There are two width controls, one for desktop and one for mobile, on the
+**Header** section: **Logo width** and **Logo width on mobile**.
+
+## The announcement bar still says "Free shipping over a set amount"
+
+That is the shipped default. Click the announcement bar in **Customize** and
+change the **Text** on the message block.

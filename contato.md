@@ -1,46 +1,46 @@
-# Suporte
+# Support
 
-Respondemos em **até dois dias úteis**, de segunda a sexta.
+We reply within **two business days**, Monday to Friday.
 
-## Antes de escrever
+## Before you write
 
-A maioria dos chamados que chegam já tem resposta pronta:
+Most tickets that reach us already have an answer:
 
-- [Problemas comuns](problemas.md) — o que quebra com mais frequência e por quê
-- [Perguntas frequentes](faq.md)
+- [Common problems](problemas.md) — what breaks most often, and why
+- [FAQ](faq.md)
 
-## Abrir um chamado
+## Open a ticket
 
-[**Abrir chamado de suporte**](https://tally.so/r/pbEoZB)
+[**Open a support ticket**](https://tally.so/r/pbEoZB)
 
-Sem conta, sem login. O anexo é opcional, aceita mais de um arquivo e vai até
-10 MB.
+No account, no sign-in. The attachment is optional, takes more than one file and
+goes up to 10 MB.
 
-O formulário pede, e cada campo tem uma razão:
+The form asks for these, and every field has a reason:
 
-| Campo | Por que |
+| Field | Why |
 |---|---|
-| Nome (*Your name*) | — |
-| E-mail | para onde vai a resposta |
-| Endereço da loja | `sualoja.myshopify.com` — sem ele não dá para ver o problema |
-| Versão do tema | aparece em **Loja online → Temas**, ao lado do nome |
-| Descrição | o que você esperava, o que aconteceu, e em qual página |
-| Anexo | print ou vídeo curto. Resolve mais rápido que qualquer descrição |
+| Your name | — |
+| Your email | where the answer goes |
+| Store address | `yourstore.myshopify.com` — without it we cannot see the problem |
+| Theme version | shown in **Online Store → Themes**, next to the name |
+| What happened | what you expected, what happened instead, and on which page |
+| Screenshot or short video | solves a ticket faster than any description |
 
-Ao enviar, o chamado cai direto na nossa caixa. A resposta vai para o e-mail
-que você informou, em até dois dias úteis.
+The ticket lands straight in our inbox. The answer goes to the address you gave,
+within two business days.
 
-## O que cobrimos
+## What we cover
 
-- Erro no tema, em loja sem alteração de código
-- Dúvida sobre configuração de seção, bloco ou setting
-- Incompatibilidade com recurso nativo da Shopify
+- A bug in the theme, on a store with no code changes
+- A question about a section, block or setting
+- Incompatibility with a native Shopify feature
 
-## O que não cobrimos
+## What we do not cover
 
-- Código adicionado ao tema por você ou por terceiros
-- Configuração de app de terceiro
-- Desenvolvimento sob medida
+- Code added to the theme by you or by a third party
+- Third-party app configuration
+- Custom development
 
-Erro crítico — loja fora do ar, carrinho ou checkout quebrado — tem prioridade e
-é corrigido fora da fila.
+A critical failure — store down, cart or checkout broken — is prioritised and
+fixed outside the queue.

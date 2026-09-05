@@ -1,41 +1,50 @@
-# Página de produto
+# Product page
 
-A coluna de compra é montada por **blocos**: você escolhe quais existem e em que ordem.
+The buying column is built from **blocks**: you choose which ones exist and in
+what order.
 
-| Bloco | Para quê |
+| Block | What it is for |
 |---|---|
-| Marca · Título · Preço · SKU | O básico. O preço pode mostrar nota de imposto |
-| Seletor de variante | Cor em bolinha, resto em pastilha |
-| Quantidade | Com botões de mais e menos |
-| Botões de compra | Adicionar ao carrinho e checkout dinâmico |
-| Descrição | O texto do produto |
-| Nota de caimento | Ex.: "A modelo tem 1,75 m e veste P" |
-| Guia de tamanhos | Abre uma página sua numa janela |
-| Preço por forma de pagamento | Calcula o valor com desconto e o valor da parcela. Ver [Seções](secoes.md) |
-| Nota de pagamento | Texto livre com ícone, sem cálculo |
-| Retirada na loja | Disponibilidade nos locais com retirada ativa |
-| Selos | Até quatro imagens suas |
-| Linha recolhível | Sanfona com texto ou uma página |
-| Aparece nestes looks | Ver [Looks](looks.md) |
-| Texto · Divisor · Compartilhar · Liquid personalizado | Complementos |
+| Vendor · Title · Price · SKU | The basics. Price can show a tax note |
+| Variant picker | Colour as a swatch, everything else as a pill |
+| Quantity selector | With plus and minus buttons |
+| Buy buttons | Add to cart, and dynamic checkout buttons |
+| Description | The product copy |
+| Fit note | E.g. "The model is 1.75 m and wears a size S" |
+| Size guide | Opens one of your pages in a dialog |
+| Payment breakdown | Works out the discounted price and the instalment. See [Sections](secoes.md) |
+| Payment note | Free text with an icon, no arithmetic |
+| Store pickup | Availability at locations with pickup enabled |
+| Badges | Up to four images of your own |
+| Collapsible row | An accordion with text, or one of your pages |
+| Appears in these looks | See [Looks](looks.md) |
+| Text · Divider · Share · Custom Liquid | Extras |
 
-## Galeria
+## Gallery
 
-As fotos rolam lateralmente com encaixe, e as miniaturas ficam abaixo. Escolher uma miniatura
-funciona mesmo sem JavaScript, porque são links.
+Photos scroll sideways with snapping, and the thumbnails sit below. Choosing a
+thumbnail works with JavaScript turned off, because they are links.
 
-Quando o cliente escolhe uma cor, a galeria vai até a foto daquela variante — desde que você
-tenha associado a imagem à variante no admin.
+**Gallery layout** switches between the carousel and a stacked column.
 
-**Coluna fixa ao rolar**: escolha qual das duas colunas fica parada. Fixe a mais curta para a
-mais longa passar ao lado. Fixar as duas não fixa nenhuma de forma útil.
+When a customer picks a colour, the gallery moves to that variant's photo — as
+long as you attached the image to the variant in the admin.
 
-## Guia de tamanhos
+**Group photos by option** goes one step further: pick the option that holds
+colour, and the gallery shows only the photos of the selected colour instead of
+every photo on the product.
 
-Crie uma página em **Conteúdo → Páginas** com a sua tabela e selecione-a no bloco. Tabelas no
-conteúdo da página são formatadas automaticamente.
+**Column pinned while scrolling**: choose which of the two columns stays put.
+Pin the shorter one so the longer one moves past it. Pinning both pins neither
+in any useful way.
 
-## Disponibilidade das variantes
+## Size guide
 
-Uma combinação sem estoque continua clicável e aparece riscada. É proposital: o cliente precisa
-ver que o tamanho existe, mesmo que não naquela cor.
+Create a page under **Content → Pages** with your table and select it in the
+block. Tables in page content are formatted automatically.
+
+## Variant availability
+
+A combination that is out of stock stays clickable and shows struck through. That
+is deliberate: the customer needs to see the size exists, even if not in that
+colour.

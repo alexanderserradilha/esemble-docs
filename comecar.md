@@ -1,51 +1,57 @@
-# Começar
+# Getting started
 
-## 1. Cores e fontes
+## 1. Colours and fonts
 
-Em **Loja virtual → Temas → Personalizar → Configurações do tema** ficam a paleta e a
-tipografia. São seis esquemas de cor, e cada seção escolhe qual usa — é assim que se
-alterna claro e escuro ao longo da página sem trocar de tema.
+The palette and the typography live in **Online Store → Themes → Customize →
+Theme settings**, under **Colors** and **Typography**. There are six colour
+schemes, and every section picks which one it uses — that is how a page
+alternates light and dark without changing theme.
 
-Ajuste cor e fonte **antes** de montar o conteúdo. Depois de pronto, mudar a paleta
-significa reconferir cada seção.
+Set colour and type **before** you build the content. Changing the palette
+afterwards means checking every section again.
 
-## 2. Logo e favicon
+## 2. Logo and favicon
 
-**Configurações do tema → Cabeçalho**: envie a logo e ajuste a largura, no desktop e no celular
-(são dois controles: uma logo grande demais no celular empurra o menu e o carrinho).
+The logo belongs to the **Header** section, not to Theme settings. Open
+**Customize**, click the header at the top of the page, and you get **Logo**,
+**Logo width** and **Logo width on mobile**. They are two separate controls on
+purpose: a logo that is fine on desktop pushes the menu and the cart around on a
+phone.
 
-O favicon fica em **Configurações da loja → Marca**.
+The favicon is in **Theme settings → Brand**.
 
 ## 3. Menu
 
-**Loja virtual → Navegação**. O tema decide sozinho o formato do menu a partir da estrutura:
+**Online Store → Navigation**. The theme decides the menu format on its own,
+from the structure you build:
 
-- item sem submenu → link simples
-- item com submenu → lista suspensa
-- item cujo submenu tem submenus → painel de colunas (mega-menu)
+- an item with no sub-items → a plain link
+- an item with sub-items → a drop-down list
+- an item whose sub-items have sub-items → a column panel (mega menu)
 
-Não há configuração para isso. Se você quer um mega-menu, crie um nível a mais de itens.
+There is no setting for this. If you want a mega menu, add one more level of
+items.
 
-## 4. Home
+## 4. Home page
 
-**Personalizar → Início**. Adicione seções pelo botão **Adicionar seção**. Uma ordem que
-funciona bem para moda:
+**Customize → Home page**, then **Add section**. An order that works well for
+fashion:
 
 1. Slideshow
-2. Faixa de benefícios
-3. Grade de coleções
-4. Coleção em destaque
-5. Banners de imagem
-6. Coleção em destaque (outra coleção)
-7. Imagem com texto
-8. Depoimentos
-9. Fileira de vídeos
-10. Perguntas frequentes
+2. Benefits strip
+3. Collection grid
+4. Featured collection
+5. Image banners
+6. Featured collection (a second collection)
+7. Image with text
+8. Testimonials
+9. Video row
+10. FAQ
 
-## 5. Cores das variantes
+## 5. Variant colours
 
-Para as bolinhas de cor aparecerem, configure as amostras no admin, em
-**Configurações → Dados personalizados → Amostras de opção**. O tema usa o recurso nativo da
-Shopify: você configura uma vez e vale para qualquer tema.
+For colour swatches to appear, set the swatches up in the admin, under
+**Settings → Custom data → Option value swatches**. The theme uses Shopify's own
+feature: you configure it once and it works in any theme.
 
-Sem isso, as opções aparecem como pastilhas de texto — que também funcionam.
+Without it, the options render as text pills — which work too.
