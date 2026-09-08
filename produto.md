@@ -12,7 +12,7 @@ what order.
 | Description | The product copy |
 | Fit note | E.g. "The model is 1.75 m and wears a size S" |
 | Size guide | Opens one of your pages in a dialog |
-| Payment breakdown | Works out the discounted price and the instalment. See [Sections](secoes.md) |
+| Payment breakdown | Shows the cash price and the instalment. The figures live in **Theme settings → Payment**. See [Sections](secoes.md) |
 | Payment note | Free text with an icon, no arithmetic |
 | Store pickup | Availability at locations with pickup enabled |
 | Badges | Up to four images of your own |

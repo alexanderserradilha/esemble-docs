@@ -13,10 +13,15 @@ configured once, it works in any theme.
 
 ## Can I show a Pix price and instalments?
 
-Yes, and the theme works both out. The **Payment breakdown** block on the product
-page takes a **Method name**, a **Discount** percentage and a **Maximum
-instalments** count, and shows the discounted price and the instalment amount —
-recalculated when the customer switches variant.
+Yes, and the theme works both out. Set the figures once in **Theme settings →
+Payment**: a **Method name**, a **Discount** percentage and an **Instalments**
+count. Add the **Payment breakdown** block to the product page and it shows the
+cash price and the instalment amount, recalculated when the customer switches
+variant.
+
+The instalment line also appears on product cards, so the figure that decides a
+Brazilian sale is visible on the home page and on a collection, not one click
+away. Turn that off with **Show instalments on product cards**.
 
 You write the method name, so it serves Pix as well as anything else.
 **Enter the numbers your checkout actually applies**: the page promises, the

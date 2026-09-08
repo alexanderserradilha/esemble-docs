@@ -60,8 +60,12 @@ needs an app.
 A block on the product page, and the reason this theme exists for a Brazilian
 store.
 
-You give it a **Method name**, a **Discount** percentage and a **Maximum
-instalments** count. The theme works out both figures and shows them:
+The figures live in **Theme settings → Payment**, not on the block: a shop has
+one Pix discount and one instalment plan, not one per section. The cash price is
+set in the display family at display size, in the **Money** colour from
+**Theme settings → Functional colour**. You give it a
+**Method name**, a **Discount** percentage and an **Instalments** count, and the
+theme works out both figures and shows them:
 
 > **R$ 151,05** with Pix
 > or up to 4x R$ 39,75 interest free

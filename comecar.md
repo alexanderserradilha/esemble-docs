@@ -10,6 +10,18 @@ alternates light and dark without changing theme.
 Set colour and type **before** you build the content. Changing the palette
 afterwards means checking every section again.
 
+One colour sits outside the schemes, in **Theme settings → Functional colour**:
+
+| Setting | What it does |
+|---|---|
+| **Money** | The cash price, the saving and the instalment — nothing else |
+
+It lives outside the schemes because its meaning must not change when a section
+changes palette, and the theme adjusts it per scheme so it stays readable: the
+default dark green would fall to 2.26:1 on a black section, so it lightens until
+it clears 4.5:1. Never use it for a button. A colour with one job is
+information; a colour spread around is decoration.
+
 ## 2. Logo and favicon
 
 The logo belongs to the **Header** section, not to Theme settings. Open
@@ -39,14 +51,15 @@ fashion:
 
 1. Slideshow
 2. Benefits strip
-3. Collection grid
-4. Featured collection
-5. Image banners
-6. Featured collection (a second collection)
-7. Image with text
-8. Testimonials
-9. Video row
-10. FAQ
+3. Featured collection, as a carousel
+4. Image with text, on a second colour scheme and full width — the band that
+   breaks the page
+5. Shop the look
+6. Featured collection, as a grid this time
+7. FAQ
+
+Three product sections in a row, all carousels, read as one section repeated.
+Alternate the layout, and put a band or an editorial section between them.
 
 ## 5. Variant colours
 
